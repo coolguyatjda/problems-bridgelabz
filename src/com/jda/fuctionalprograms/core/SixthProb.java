@@ -9,11 +9,10 @@ public class SixthProb {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		int N = input.nextInt();
-		for(int i=2; i<=Math.sqrt(N); i++){
-			if(SixthUtil.isPrime(i)){
-				if(N%i == 0)
-					System.out.println(i);
+		while(N != 1){
+			int num = SixthUtil.isPrime(N);
+			System.out.print(num + " ");
+			N /= num;
 			}
 		}
 	}
-}
