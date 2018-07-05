@@ -7,7 +7,7 @@ public class SecondUtil {
 	int i = r.nextInt(100);
 	if(i > 50)
 		return true;
-	else
-		return false;
+	
+	return false;
 }
 }
