@@ -1,3 +1,5 @@
+package com.jda.fuctionalprograms.core;
+
 import java.util.Random;
 import java.util.Scanner;
 
