@@ -3,6 +3,11 @@ import java.util.Scanner;
 
 import com.jda.fuctionalprograms.util.SecondUtil;
 
+/**
+ * 
+ * @author bridgelabz
+ *Gambler Class takes the number of time the user plays, the goal, and the stake. Returns the perce
+ */
 public class Gambler {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
