@@ -7,6 +7,6 @@ public class Stopwatch {
 		String start = in.nextLine();
 		long now = System.currentTimeMillis();
 		String stop = in.nextLine();
-		System.out.println((double)System.currentTimeMillis() - now/1000.1);
+		System.out.println((double)(System.currentTimeMillis() - now)/1000.0);
 	}
 }

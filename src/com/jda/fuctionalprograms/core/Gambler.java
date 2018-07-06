@@ -12,17 +12,18 @@ public class Gambler {
 		int win = 0; int loss = 0;
 	  for(int i=0; i<N; i++){
 		  int count = 0;
-		  while(stake >= 0 && stake <= goal){
+		  int temp = stake;
+		  while(temp > 0 && temp < goal){
 			  if(SecondUtil.flipCoin()){
-				  stake++;
+				  temp++;
 				  count++;
 			  }else{
-				  stake--;
+				  temp--;
 				  count ++;
 			  }
 		  }
 		  System.out.print(count + " ");
-		  if(stake == 0){
+		  if(temp == 0){
 			  System.out.println("loss");
 			  loss++;
 		  }else{

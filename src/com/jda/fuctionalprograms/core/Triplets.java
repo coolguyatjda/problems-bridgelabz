@@ -12,9 +12,9 @@ public class Triplets {
 			a[i] = input.nextInt();
 		}
 		int count = 0;
-		for(int i = 0; i<N; i++){
-			for(int j=1; j<N; j++){
-				for(int k=2; k<N; k++){
+		for(int i = 0; i<N-2; i++){
+			for(int j=i+1; j<N-1; j++){
+				for(int k=j+1; k<N; k++){
 					if(a[i]+a[j]+a[k] == 0){
 						System.out.println(a[i] + " " +a[j]  + " " + a[k] );
 						count++;

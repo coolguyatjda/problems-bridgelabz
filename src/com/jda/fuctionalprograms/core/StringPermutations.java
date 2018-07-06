@@ -6,6 +6,5 @@ public class StringPermutations {
 		Scanner input = new Scanner(System.in);
 		String s = input.nextLine();
 		
-		for
 	}
 }
