@@ -2,6 +2,11 @@ package com.jda.AlgorithmProblems.core;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * @author bridgelabz
+ *The main method takes in two words as its input and checks if they are anagrams.
+ */
 public class AnagramDetection {
 
 	public static void main(String[] args) {

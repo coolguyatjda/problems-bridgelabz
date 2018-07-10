@@ -2,6 +2,11 @@ package com.jda.AlgorithmProblems.core;
 
 import java.util.Scanner;
 
+/**
+ * 
+ * @author bridgelabz
+ *The main method takes a decimal as its input and prints the binary representation of the number.
+ */
 public class BinaryConversion {
 
 	public static void main(String[] args) {

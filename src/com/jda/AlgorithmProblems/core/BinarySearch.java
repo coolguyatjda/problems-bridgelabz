@@ -1,7 +1,12 @@
 package com.jda.AlgorithmProblems.core;
 
 import java.util.Scanner;
-
+/**\
+ * 
+ * @author bridgelabz
+ *The main method takes size of the array, an integer array and the key to find as its input
+ *and prints the key index (index starting from 1)
+ */
 public class BinarySearch {
 
 	public static void main(String[] args) {

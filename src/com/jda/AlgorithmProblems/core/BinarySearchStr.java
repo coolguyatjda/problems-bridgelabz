@@ -3,7 +3,11 @@ package com.jda.AlgorithmProblems.core;
 import java.util.Scanner;
 
 import com.jda.AlgorithmProblems.util.Utility;
-
+/**
+ * 
+ * @author bridgelabz
+ *Takes in a str
+ */
 public class BinarySearchStr {
 
 	public static void main(String[] args) {
