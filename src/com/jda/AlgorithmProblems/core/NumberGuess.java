@@ -7,16 +7,21 @@ public class NumberGuess {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
-		int N = in.nextInt();
-		int arr[] = new int[N];
-		for(int i=0; i<N; i++)
-			arr[i] = i;
-		String str = "";
-		while(str != "YES"){
-			int value = BinarySearch.index(arr, (N-1)/2, 0, N-1);
-			str = in.nextLine();
-			if(str = "NO")
-				
+		int N = Integer.parseInt(in.nextLine());
+		int ans = N/2;
+		while(true){
+			System.out.println("Is your number  " + ans);
+			String str = in.nextLine();
+			if(str.equals("YES"))
+				break;
+			else{
+				if(str.equals("MORE"))
+					ans = ans + 1 + ans/2;
+				else if(str.equals("LESS"))
+					ans = ans -1 -  ans/2;
+				else
+					System.out.println("Enter MORE OR LESS");
+			}
 		}
 	}
 	}
