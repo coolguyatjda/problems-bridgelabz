@@ -1,6 +1,12 @@
 package com.jda.fuctionalprograms.core;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author bridgelabz
+ *The class takes in two real numbers as its input and returns the euclidian distance of the 
+ *point from origin
+ */
 public class Distance {
 
 	public static void main(String[] args) {

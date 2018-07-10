@@ -2,6 +2,12 @@ package com.jda.fuctionalprograms.core;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author bridgelabz
+ *The coupon generator class can generate coupons for user within the range of 1000000
+ *It takes the number of coupons needed as input
+ */
 public class CouponGenerator {
 	public static void main(String[] args) {
 		int arr[] = new int[1000000];
