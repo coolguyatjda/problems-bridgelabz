@@ -8,17 +8,19 @@ public class NumberGuess {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
 		int N = Integer.parseInt(in.nextLine());
-		int ans = N/2;
+		int upper = (N-1);
+		int lower = 0;
 		while(true){
-			System.out.println("Is your number  " + ans);
+			System.out.println("Is your number  " + (lower+upper)/2);
 			String str = in.nextLine();
-			if(str.equals("YES"))
+			System.out.println("Enter MORE OR LESS OR EQUAL");
+			if(str.equals("EQUAL"))
 				break;
 			else{
 				if(str.equals("MORE"))
-					ans = ans + 1 + ans/2;
+					lower = (lower+upper)/2+1;
 				else if(str.equals("LESS"))
-					ans = ans -1 -  ans/2;
+					upper = (lower+upper)/2-1;
 				else
 					System.out.println("Enter MORE OR LESS");
 			}
