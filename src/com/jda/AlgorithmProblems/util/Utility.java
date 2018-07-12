@@ -9,7 +9,7 @@ public class Utility {
 		}
 		return str1.equals(str2);
 	}
-	
+		
 	public static int[] toInt(String str){
 		int len  = str.length();
 		char[] charArr = str.toCharArray();
